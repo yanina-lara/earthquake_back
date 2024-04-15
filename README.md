@@ -13,16 +13,16 @@ This README provides steps to get the application up and running.
    
 2. Run database initialization commands:
 
-    ### `rails db:create`
-    ### `rails db:migrate`
+    `rails db:create`
+    `rails db:migrate`
 
 To fetch earthquake data, execute:
 
- ### `rake earthquake:fetch_data`
+ `rake earthquake:fetch_data`
 
 Start the Rails server on port 4000 with:
 
- ### `rrails s -p 4000`
+ `rrails s -p 4000`
 
 
 
