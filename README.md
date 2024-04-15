@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README provides steps to get the application up and running.
 
-Things you may want to cover:
+## Prerequisites
 
-* Ruby version
+- Ruby version: 3.1.4
+- PostgreSQL: Ensure PostgreSQL is installed on your system.
 
-* System dependencies
+## Configuration
 
-* Configuration
+1. Configure the `database.yml` file with your database settings.
+   
+2. Run database initialization commands:
 
-* Database creation
+    ### `rails db:create`
+    ### `rails db:migrate`
 
-* Database initialization
+To fetch earthquake data, execute:
 
-* How to run the test suite
+ ### `rake earthquake:fetch_data`
 
-* Services (job queues, cache servers, search engines, etc.)
+Start the Rails server on port 4000 with:
 
-* Deployment instructions
+ ### `rrails s -p 4000`
 
-* ...
+
+
+
