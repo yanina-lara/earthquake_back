@@ -14,6 +14,7 @@ This README provides steps to get the application up and running.
 2. Run database initialization commands:
 
     `rails db:create`
+   
     `rails db:migrate`
 
 To fetch earthquake data, execute:
